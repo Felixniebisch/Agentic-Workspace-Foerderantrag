@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 810" width="1200" height="810" role="img" aria-labelledby="t d">
+  <title id="t">hansetherm Förderantrag-Ablauf</title>
+  <desc id="d">Sechs Stufen von der Anfrage bis zum Verwendungsnachweis für KfW 458. Ein Agent erstellt die Ergebnisse jeder Stufe, danach prüft ein Mensch oder ein Skript. Darunter die gemeinsamen Ordner _shared, _tools und kunden.</desc>
+  <style>
+    :root{
+      --bg:#f6f8fa; --card:#ffffff; --line:#d0d7de; --ink:#1f2328; --muted:#59636e; --accent:#0e7490;
+      --agent:#0969da; --agent-t:#ddf4ff; --human:#9a6700; --human-t:#fff8c5; --script:#1a7f37; --script-t:#dafbe1;
+      --fail:#cf222e;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0d1117; --card:#161b22; --line:#30363d; --ink:#e6edf3; --muted:#9198a1; --accent:#39c5cf;
+        --agent:#4493f8; --agent-t:#0c2d6b; --human:#d29922; --human-t:#3b2e0a; --script:#3fb950; --script-t:#0f3a1d;
+        --fail:#f85149;
+      }
+    }
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:var(--ink)}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .bg{fill:var(--bg)}
+    .card{fill:var(--card);stroke:var(--line);stroke-width:1}
+    .h1{font-size:26px;font-weight:700}
+    .sub{font-size:15px;fill:var(--muted)}
+    .num{font-size:22px;font-weight:700;fill:var(--accent)}
+    .name{font-size:16px;font-weight:600}
+    .lbl{font-size:10.5px;font-weight:600;letter-spacing:.08em;fill:var(--muted)}
+    .body{font-size:13px}
+    .small{font-size:12px;fill:var(--muted)}
+    .gate{font-size:14px;font-weight:600}
+    .chip{fill:var(--card);stroke:var(--line)}
+    .chipt{font-size:12px}
+    .rule{stroke:var(--line);stroke-width:1}
+    .arrow{stroke:var(--muted);stroke-width:1.5;fill:none}
+    .head{fill:var(--muted)}
+    .ag{fill:var(--agent)} .agt{fill:var(--agent-t)} .agtx{fill:var(--agent)}
+    .hu{fill:var(--human)} .hut{fill:var(--human-t)} .hutx{fill:var(--human)}
+    .sc{fill:var(--script)} .sct{fill:var(--script-t)} .sctx{fill:var(--script)}
+    .failtx{fill:var(--fail);font-size:13px;font-weight:600}
+    .failline{stroke:var(--fail);stroke-width:1.5;stroke-dasharray:4 3;fill:none}
+    .bracket{stroke:var(--accent);stroke-width:1.5;fill:none}
+    .acc{fill:var(--accent)}
+    .dot{fill:var(--ink)}
+    .ptitle{font-size:15px;font-weight:700}
+    .item{font-size:13px}
+    .itemk{font-size:12.5px;font-weight:600}
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="head"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="810" rx="14"/>
+
+  <!-- Titel -->
+  <text class="h1" x="50" y="52">hansetherm · Förderantrag-Ablauf (KfW 458)</text>
+  <text class="sub" x="50" y="78">Ein Agent arbeitet die Stufen ab. Nach jeder Stufe prüft ein Mensch oder ein Skript, erst bei <tspan class="mono">pass</tspan> geht es weiter.</text>
+
+  <!-- Legende -->
+  <g transform="translate(905,40)">
+    <rect class="ag" x="0" y="0" width="12" height="12" rx="3"/><text class="small" x="18" y="10.5">Agent</text>
+    <rect class="hu" x="76" y="0" width="12" height="12" rx="3"/><text class="small" x="94" y="10.5">Mensch</text>
+    <rect class="sc" x="164" y="0" width="12" height="12" rx="3"/><text class="small" x="182" y="10.5">Skript</text>
+  </g>
+
+  <!-- Quellen -->
+  <text class="small" x="50" y="140">Anfrage aus Planungstool oder von toom</text>
+  <path class="arrow" d="M132,148 L132,171" marker-end="url(#ah)"/>
+
+  <!-- Klammer über 04–06 -->
+  <path class="bracket" d="M613,166 L613,158 L1148,158 L1148,166"/>
+  <text class="small" x="1148" y="146" text-anchor="end"><tspan class="acc" font-weight="600">Reihenfolge sichert die Förderung:</tspan> Bedingung im Vertrag → Antrag vor Arbeitsbeginn → 36 Monate</text>
+
+  <!-- Stufen: x = 50 + i*187, Breite 165 -->
+  <!-- 01 -->
+  <g transform="translate(50,175)">
+    <rect class="card" width="165" height="220" rx="10"/>
+    <text class="num" x="14" y="34">01</text><text class="name" x="50" y="33">Eingang</text>
+    <line class="rule" x1="14" y1="50" x2="151" y2="50"/>
+    <text class="lbl" x="14" y="72">AGENT ERSTELLT</text>
+    <text class="body" x="14" y="93">Anfragedaten im</text>
+    <text class="body" x="14" y="111">festen Format, ggf.</text>
+    <text class="body" x="14" y="129">Rückfrage-Entwurf</text>
+    <path class="agt" d="M0,150 H165 V210 A10,10 0 0 1 155,220 H10 A10,10 0 0 1 0,210 Z"/>
+    <text class="lbl" x="14" y="170">PRÜFUNG</text>
+    <text class="gate agtx" x="14" y="190">Agent</text>
+    <text class="small" x="14" y="207">Vollständigkeit</text>
+  </g>
+  <!-- 02 -->
+  <g transform="translate(237,175)">
+    <rect class="card" width="165" height="220" rx="10"/>
+    <text class="num" x="14" y="34">02</text><text class="name" x="50" y="33">Förder-Check</text>
+    <line class="rule" x1="14" y1="50" x2="151" y2="50"/>
+    <text class="lbl" x="14" y="72">AGENT ERSTELLT</text>
+    <text class="body" x="14" y="93">erwarteten KfW-</text>
+    <text class="body" x="14" y="111">Zuschuss, gerechnet</text>
+    <text class="body" x="14" y="129">per <tspan class="mono" font-size="12">foerdercheck.py</tspan></text>
+    <path class="hut" d="M0,150 H165 V210 A10,10 0 0 1 155,220 H10 A10,10 0 0 1 0,210 Z"/>
+    <text class="lbl" x="14" y="170">PRÜFUNG</text>
+    <text class="gate hutx" x="14" y="190">Finanzen</text>
+    <text class="small" x="14" y="207">gibt frei</text>
+  </g>
+  <!-- 03 -->
+  <g transform="translate(424,175)">
+    <rect class="card" width="165" height="220" rx="10"/>
+    <text class="num" x="14" y="34">03</text><text class="name" x="50" y="33">Angebot</text>
+    <line class="rule" x1="14" y1="50" x2="151" y2="50"/>
+    <text class="lbl" x="14" y="72">AGENT ERSTELLT</text>
+    <text class="body" x="14" y="93">Festpreis minus</text>
+    <text class="body" x="14" y="111">sicherer Zuschuss,</text>
+    <text class="body" x="14" y="129">aus der Vorlage</text>
+    <path class="hut" d="M0,150 H165 V210 A10,10 0 0 1 155,220 H10 A10,10 0 0 1 0,210 Z"/>
+    <text class="lbl" x="14" y="170">PRÜFUNG</text>
+    <text class="gate hutx" x="14" y="190">Vertrieb</text>
+    <text class="small" x="14" y="207">gibt frei, versendet</text>
+  </g>
+  <!-- 04 -->
+  <g transform="translate(611,175)">
+    <rect class="card" width="165" height="220" rx="10"/>
+    <text class="num" x="14" y="34">04</text><text class="name" x="50" y="33">Vertrag</text>
+    <line class="rule" x1="14" y1="50" x2="151" y2="50"/>
+    <text class="lbl" x="14" y="72">AGENT ERSTELLT</text>
+    <text class="body" x="14" y="93">Vertrag mit</text>
+    <text class="body" x="14" y="111">Förderbedingung</text>
+    <text class="body" x="14" y="129">(aufschiebend/auflösend)</text>
+    <path class="sct" d="M0,150 H165 V210 A10,10 0 0 1 155,220 H10 A10,10 0 0 1 0,210 Z"/>
+    <text class="lbl" x="14" y="170">PRÜFUNG</text>
+    <text class="gate sctx mono" font-size="13" x="14" y="190">vertrag_check.py</text>
+    <text class="small" x="14" y="207">Skript, kein Mensch</text>
+  </g>
+  <!-- 05 -->
+  <g transform="translate(798,175)">
+    <rect class="card" width="165" height="220" rx="10"/>
+    <text class="num" x="14" y="34">05</text><text class="name" x="50" y="33">Antrag</text>
+    <line class="rule" x1="14" y1="50" x2="151" y2="50"/>
+    <text class="lbl" x="14" y="72">AGENT ERSTELLT</text>
+    <text class="body" x="14" y="93">BzA, Checkliste und</text>
+    <text class="body" x="14" y="111">Werte für „Meine KfW“;</text>
+    <text class="body" x="14" y="129">Kunde stellt Antrag</text>
+    <path class="hut" d="M0,150 H165 V210 A10,10 0 0 1 155,220 H10 A10,10 0 0 1 0,210 Z"/>
+    <text class="lbl" x="14" y="170">PRÜFUNG</text>
+    <text class="gate hutx" x="14" y="190">Vertrieb</text>
+    <text class="small" x="14" y="207">KfW-Zusage liegt vor</text>
+  </g>
+  <!-- 06 -->
+  <g transform="translate(985,175)">
+    <rect class="card" width="165" height="220" rx="10"/>
+    <text class="num" x="14" y="34">06</text><text class="name" x="50" y="33">Nachweis</text>
+    <line class="rule" x1="14" y1="50" x2="151" y2="50"/>
+    <text class="lbl" x="14" y="72">AGENT ERSTELLT</text>
+    <text class="body" x="14" y="93">Nachweis-Checkliste</text>
+    <text class="body" x="14" y="111">und 36-Monats-Frist</text>
+    <text class="body" x="14" y="129">ab Zusage</text>
+    <path class="hut" d="M0,150 H165 V210 A10,10 0 0 1 155,220 H10 A10,10 0 0 1 0,210 Z"/>
+    <text class="lbl" x="14" y="170">PRÜFUNG</text>
+    <text class="gate hutx" x="14" y="190">Projektleitung</text>
+    <text class="small" x="14" y="207">Vollständigkeit</text>
+  </g>
+
+  <!-- Pfeile zwischen den Stufen -->
+  <g>
+    <path class="arrow" d="M217,285 H234" marker-end="url(#ah)"/>
+    <path class="arrow" d="M404,285 H421" marker-end="url(#ah)"/>
+    <path class="arrow" d="M591,285 H608" marker-end="url(#ah)"/>
+    <path class="arrow" d="M778,285 H795" marker-end="url(#ah)"/>
+    <path class="arrow" d="M965,285 H982" marker-end="url(#ah)"/>
+  </g>
+
+  <!-- Status nach pass -->
+  <g>
+    <path class="arrow" d="M132,397 V418"/><rect class="chip" x="55" y="418" width="155" height="26" rx="13"/>
+    <text class="chipt mono" x="132.5" y="435.5" text-anchor="middle">pass → foerdercheck</text>
+    <path class="arrow" d="M319,397 V418"/><rect class="chip" x="242" y="418" width="155" height="26" rx="13"/>
+    <text class="chipt mono" x="319.5" y="435.5" text-anchor="middle">pass → angebot</text>
+    <path class="arrow" d="M506,397 V418"/><rect class="chip" x="429" y="418" width="155" height="26" rx="13"/>
+    <text class="chipt mono" x="506.5" y="435.5" text-anchor="middle">pass → vertrag</text>
+    <path class="arrow" d="M693,397 V418"/><rect class="chip" x="616" y="418" width="155" height="26" rx="13"/>
+    <text class="chipt mono" x="693.5" y="435.5" text-anchor="middle">pass → antrag</text>
+    <path class="arrow" d="M880,397 V418"/><rect class="chip" x="803" y="418" width="155" height="26" rx="13"/>
+    <text class="chipt mono" x="880.5" y="435.5" text-anchor="middle">pass → bewilligt</text>
+    <path class="arrow" d="M1067,397 V418"/><rect class="chip" x="990" y="418" width="155" height="26" rx="13"/>
+    <text class="chipt mono" x="1067.5" y="435.5" text-anchor="middle">pass → abgeschlossen</text>
+  </g>
+
+  <!-- Demo-Vorgänge -->
+  <g>
+    <circle class="dot" cx="64" cy="474" r="5"/>
+    <text class="body" x="76" y="478" font-weight="600">Petersen, Norderstedt</text>
+    <text class="small" x="76" y="495">status: eingang</text>
+    <circle class="dot" cx="625" cy="474" r="5"/>
+    <text class="body" x="637" y="478" font-weight="600">Albers, Pinneberg</text>
+    <text class="small" x="637" y="495">status: vertrag</text>
+    <circle class="dot" cx="812" cy="474" r="5"/>
+    <text class="body" x="824" y="478" font-weight="600">Hansen, Hamburg</text>
+    <text class="small" x="824" y="495">status: bewilligt</text>
+    <text class="small" x="1150" y="478" text-anchor="end" font-style="italic">Demo-Vorgänge</text>
+    <text class="small" x="1150" y="495" text-anchor="end" font-style="italic">(fiktiv)</text>
+  </g>
+
+  <!-- fail -->
+  <path class="failline" d="M50,523 H70"/>
+  <text class="small" x="80" y="527"><tspan class="failtx">fail: &lt;Grund&gt;</tspan> in <tspan class="mono">check.md</tspan> hält den Vorgang an dieser Stufe an, ein Mensch entscheidet. Freigaben aus Slack oder E-Mail werden als <tspan class="mono">check.md</tspan> abgelegt.</text>
+
+  <!-- Ordner-Panels -->
+  <g transform="translate(50,550)">
+    <rect class="card" width="350" height="200" rx="10"/>
+    <text class="ptitle mono" x="18" y="32">_shared/</text>
+    <text class="small" x="18" y="52">gleich für jeden Vorgang, nur lesen</text>
+    <line class="rule" x1="18" y1="66" x2="332" y2="66"/>
+    <text class="itemk mono" x="18" y="92">foerderregeln.md</text><text class="item" x="152" y="92">einzige Quelle der Regeln</text>
+    <text class="itemk mono" x="18" y="115">produkte.md</text><text class="item" x="152" y="115">Pakete HT-L06 … L12</text>
+    <text class="itemk mono" x="18" y="138">vorlagen/</text><text class="item" x="152" y="138">Angebot, Vertragsklausel,</text>
+    <text class="item" x="152" y="156">Rückfrage-E-Mail</text>
+  </g>
+  <g transform="translate(425,550)">
+    <rect class="card" width="350" height="200" rx="10"/>
+    <text class="ptitle mono" x="18" y="32">_tools/</text>
+    <text class="small" x="18" y="52">Python 3 ohne Zusatzpakete, Start mit <tspan class="mono">python -I</tspan></text>
+    <line class="rule" x1="18" y1="66" x2="332" y2="66"/>
+    <text class="itemk mono sctx" x="18" y="92">foerdercheck.py</text><text class="item" x="152" y="92">Zuschuss, Stufe 02</text>
+    <text class="itemk mono sctx" x="18" y="115">vertrag_check.py</text><text class="item" x="152" y="115">Förderbedingung, Stufe 04</text>
+    <text class="itemk mono sctx" x="18" y="138">index.py</text><text class="item" x="152" y="138">Statusübersicht</text>
+    <text class="itemk mono sctx" x="18" y="161">kennzahlen.py</text><text class="item" x="152" y="161">Durchlaufzeit, Fehlerquote</text>
+    <text class="itemk mono sctx" x="18" y="184">links.py</text><text class="item" x="152" y="184">prüft Links, Eingabepfade</text>
+  </g>
+  <g transform="translate(800,550)">
+    <rect class="card" width="350" height="200" rx="10"/>
+    <text class="ptitle mono" x="18" y="32">kunden/JJJJ-MM-name-ort/</text>
+    <text class="small" x="18" y="52">pro Vorgang ein Ordner, Stempel: <tspan class="mono">_templates/kunde/</tspan></text>
+    <line class="rule" x1="18" y1="66" x2="332" y2="66"/>
+    <text class="itemk mono" x="18" y="92">CONTEXT.md</text><text class="item" x="152" y="92">die eine Zeile <tspan class="mono">status:</tspan></text>
+    <text class="itemk mono" x="18" y="115">01_eingang/ …</text><text class="item" x="152" y="115">Ergebnisse jeder Stufe</text>
+    <text class="itemk mono" x="18" y="138">06_nachweis/</text>
+    <text class="itemk mono" x="18" y="161">  └ check.md</text><text class="item" x="152" y="161"><tspan class="mono">pass</tspan> / <tspan class="mono">fail</tspan>, Prüfer, Datum</text>
+  </g>
+
+  <!-- Grundregel -->
+  <text class="small" x="600" y="785" text-anchor="middle">Der Agent liest pro Stufe nur die Eingaben aus deren <tspan class="mono">CONTEXT.md</tspan> und versendet, unterschreibt oder beantragt nie selbst. Er schreibt Entwürfe, Menschen senden.</text>
+</svg>
