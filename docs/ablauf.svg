@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 810" width="1200" height="810" role="img" aria-labelledby="t d">
-  <title id="t">hansetherm Förderantrag-Ablauf</title>
+  <title id="t">Förderantrag-Ablauf</title>
   <desc id="d">Sechs Stufen von der Anfrage bis zum Verwendungsnachweis für KfW 458. Ein Agent erstellt die Ergebnisse jeder Stufe, danach prüft ein Mensch oder ein Skript. Darunter die gemeinsamen Ordner _shared, _tools und kunden.</desc>
   <style>
     :root{
@@ -52,7 +52,7 @@
   <rect class="bg" x="0" y="0" width="1200" height="810" rx="14"/>
 
   <!-- Titel -->
-  <text class="h1" x="50" y="52">hansetherm · Förderantrag-Ablauf (KfW 458)</text>
+  <text class="h1" x="50" y="52">Förderantrag-Ablauf (KfW 458)</text>
   <text class="sub" x="50" y="78">Ein Agent arbeitet die Stufen ab. Nach jeder Stufe prüft ein Mensch oder ein Skript, erst bei <tspan class="mono">pass</tspan> geht es weiter.</text>
 
   <!-- Legende -->

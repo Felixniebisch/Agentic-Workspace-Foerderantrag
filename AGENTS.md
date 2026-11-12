@@ -1,4 +1,4 @@
-# hansetherm Förderantrag-Ablauf
+# Förderantrag-Ablauf
 
 Dieser Arbeitsbereich führt jeden Kundenvorgang von der Anfrage (Online-Planungstool oder Partner toom) bis zur KfW-Zusage und zum Verwendungsnachweis. Ein KI-Agent arbeitet die nummerierten Stufen ab; nach jeder Stufe prüft ein Mensch oder ein Skript, bevor es weitergeht. Diese Datei leitet nur weiter, Inhalte stehen in den verlinkten Dateien.
 

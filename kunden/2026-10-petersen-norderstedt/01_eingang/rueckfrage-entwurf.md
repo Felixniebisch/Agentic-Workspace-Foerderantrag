@@ -16,4 +16,4 @@ vielen Dank für Ihre Anfrage über toom. Damit wir Ihre Förderung berechnen un
 Antworten Sie einfach auf diese E-Mail. Sobald die Angaben da sind, melden wir uns innerhalb von zwei Werktagen mit Ihrem Förder-Check.
 
 Viele Grüße
-Ihr hansetherm-Team
+Ihr Team

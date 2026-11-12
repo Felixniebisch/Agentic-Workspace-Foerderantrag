@@ -19,4 +19,3 @@ Antworten Sie einfach auf diese E-Mail. Sobald die Angaben da sind, melden wir u
 
 Viele Grüße
 {bearbeiter}
-hansetherm

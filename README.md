@@ -1,4 +1,4 @@
-# hansetherm – Agentic Workspace Förderantrag
+# Agentic Workspace Förderantrag
 
 Ein Arbeitsbereich, in dem ein KI-Agent jeden Kundenvorgang von der Anfrage bis zur KfW-458-Zusage und zum Verwendungsnachweis begleitet. Nach jeder Stufe prüft ein Mensch oder ein Skript, erst bei `pass` geht es weiter.
 

@@ -17,6 +17,6 @@ Maren Hansen, Beispielweg 12, 22547 Hamburg
 Möglicherweise steht Ihnen zusätzlich ein einkommensabhängiger Bonus zu. Wir prüfen das mit Ihnen vor dem Antrag; im Angebot ist er nicht eingerechnet.
 
 Hinweise:
-- Der Zuschuss wird von der KfW an Sie ausgezahlt, nicht von hansetherm. Der Festpreis ist unabhängig davon verbindlich.
+- Der Zuschuss wird von der KfW an Sie ausgezahlt, nicht von uns. Der Festpreis ist unabhängig davon verbindlich.
 - Der Vertrag wird mit einer Förderbedingung geschlossen: ohne KfW-Zusage entstehen Ihnen keine Kosten.
 - Angebot gültig bis 05.10.2026.

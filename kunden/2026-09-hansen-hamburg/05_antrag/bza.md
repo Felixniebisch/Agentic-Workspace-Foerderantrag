@@ -1,6 +1,6 @@
 # Bestätigung zum Antrag (BzA) 2026-09-hansen-hamburg
 
-Angaben, die hansetherm im KfW-Portal für die BzA bestätigt. Fiktiv.
+Angaben, die das Fachunternehmen im KfW-Portal für die BzA bestätigt. Fiktiv.
 
 | Angabe | Wert | Herkunft |
 |---|---|---|

@@ -16,7 +16,7 @@ Die einzige Stelle im Arbeitsbereich, an der Förderregeln stehen. Stufen und Sk
 ## Reihenfolge, die nie gebrochen werden darf
 
 1. **Vertrag mit Förderbedingung**: Liefer- und Leistungsvertrag nur mit aufschiebender oder auflösender Bedingung (Förderzusage). Ein unbedingter Vertrag gilt als Vorhabenbeginn, dann entfällt die Förderung. [1]
-2. **KfW-Antrag vor Beginn der Arbeiten**: der Kunde stellt den Antrag in „Meine KfW“, mit der „Bestätigung zum Antrag“ (BzA) von hansetherm. [1]
+2. **KfW-Antrag vor Beginn der Arbeiten**: der Kunde stellt den Antrag in „Meine KfW“, mit der „Bestätigung zum Antrag“ (BzA) des Fachunternehmens. [1]
 3. **36 Monate ab Zusage**: in dieser Frist muss das Vorhaben abgeschlossen und nachgewiesen sein. [1]
 
 ## Regeln (maschinenlesbar)

@@ -5,7 +5,7 @@ Liefer- und Leistungsvertrag, Demo-Fassung, fiktiv. Erstellt aus `03_angebot/ang
 ## Parteien
 
 Auftraggeberin: Maren Hansen, Beispielweg 12, 22547 Hamburg
-Auftragnehmer: hansetherm, Hamburg
+Auftragnehmer: Fachunternehmen (fiktiv), Hamburg
 
 ## Leistung
 

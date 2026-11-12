@@ -1,6 +1,6 @@
 # 05_antrag – KfW-Antrag vorbereiten
 
-Eine Aufgabe: alles vorbereiten, damit der Kunde seinen Antrag in „Meine KfW“ selbst stellen kann, bevor die Arbeiten beginnen. hansetherm stellt die „Bestätigung zum Antrag“ (BzA) aus; den Antrag stellt nur der Kunde.
+Eine Aufgabe: alles vorbereiten, damit der Kunde seinen Antrag in „Meine KfW“ selbst stellen kann, bevor die Arbeiten beginnen. Das Fachunternehmen stellt die „Bestätigung zum Antrag“ (BzA) aus; den Antrag stellt nur der Kunde.
 
 Pfade sind relativ zur Wurzel des Arbeitsbereichs.
 
@@ -16,7 +16,7 @@ Nicht laden: `vertrag.md` im Volltext, `angebot.md`, andere Kundenordner.
 ## Ablauf
 
 1. Prüfen, dass `04_vertrag/check.md` mit `pass` beginnt. Sonst anhalten.
-2. `bza.md` schreiben: die Angaben, die hansetherm für die BzA bestätigt (Vorhaben, Paket, förderfähige Kosten, Standort). hansetherm stellt die BzA im KfW-Portal aus; die BzA-ID wird hier eingetragen, sobald sie vorliegt.
+2. `bza.md` schreiben: die Angaben, die das Fachunternehmen für die BzA bestätigt (Vorhaben, Paket, förderfähige Kosten, Standort). Das Fachunternehmen stellt die BzA im KfW-Portal aus; die BzA-ID wird hier eingetragen, sobald sie vorliegt.
 3. `checkliste.md` schreiben: die Schritte für den Kunden, persönlich (welche Boni für ihn in Frage kommen, welche Nachweise er bereithalten muss, z. B. Einkommensteuerbescheid, wenn der Einkommensbonus offen ist).
 4. `meine-kfw-werte.md` schreiben: Feld für Feld die Werte, die der Kunde in „Meine KfW“ einträgt, jede Zahl mit Herkunft (`zuschuss.md` oder `daten.md`).
 5. Kunde stellt den Antrag. Der Agent stellt nichts, sendet nichts. Vertrieb übergibt die Unterlagen.

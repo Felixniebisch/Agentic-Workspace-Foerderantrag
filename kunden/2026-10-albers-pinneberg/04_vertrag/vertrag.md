@@ -5,7 +5,7 @@ Liefer- und Leistungsvertrag, Demo-Fassung, fiktiv. Erstellt aus `03_angebot/ang
 ## Parteien
 
 Auftraggeberin: Sina Albers, Am Testpark 3, 25421 Pinneberg
-Auftragnehmer: hansetherm, Hamburg
+Auftragnehmer: Fachunternehmen (fiktiv), Hamburg
 
 ## Leistung
 
